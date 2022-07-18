@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
             ItemData("Notification", R.drawable.ic_baseline_notifications_none_24),
             ItemData("Payment", R.drawable.ic_baseline_payments_24),
             ItemData("Security", R.drawable.ic_baseline_security_24),
-            ItemData("Language               English(US)", R.drawable.ic_baseline_language_24),
+            ItemData("Language", R.drawable.ic_baseline_language_24, layoutType = 2, secondText = "English(US)"),
             ItemData("Dark mode", R.drawable.ic_baseline_dark_mode_24, R.drawable.ic_baseline_toggle_on_24),
             ItemData("Privacy policy", R.drawable.ic_baseline_lock_24),
             ItemData("Help center", R.drawable.ic_baseline_help_24),
